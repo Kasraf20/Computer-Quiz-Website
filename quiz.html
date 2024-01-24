@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/quiz.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-data">
+            <div class="upper-data">
+                <div class="score">
+                    <p>Score :&nbsp;</p>
+                    <p id="user-score">0</p> 
+                </div>
+                <div class="time">
+                    <p>Time :&nbsp;</p> 
+                    <p id="time-sec">30</p>
+                </div>
+            </div>
+   
+            <div class="middle-data">
+                <h2 id="title"></h2>    
+                <section id="section"> 
+                </section>
+            </div>
+
+            <div class="hide-score-text">   
+                <div class="hide-score">
+                    <h2>Your Score is:&nbsp;</h2>  
+                    <h1 id="hide-user-score">0</h1>
+                </div>
+                <div class="score-text">
+                    <p id="feedback">You can do better</p>
+                </div> 
+                <div class="redirect">
+                    <a href="./index.html">Start Again</a>
+                </div>
+            </div>    
+        </div>  
+    </div>
+ 
+    <script src="./JAVASCRIPT/quiz.js"></script>  
+    <!-- <script src="./JAVASCRIPT/data.js"></script>   -->
+</body>
+</html>
